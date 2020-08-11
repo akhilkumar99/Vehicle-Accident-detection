@@ -34,4 +34,22 @@ We can add upto 18 different digital sensors to a single arduino controller at o
 
 &nbsp;
 > ## Small tutorial to set up a ThingSpeak Account and to upload the sensor data
+![alt text](https://github.com/akhilkumar99/Vehicle-Accident-detection/blob/master/sign%20in%20into%20thingspeak.JPG)
+
+* Sign in into ThingSpeak account through MathWorks account, if you don't have a matlab account then create one for free.
+![alt text](https://github.com/akhilkumar99/Vehicle-Accident-detection/blob/master/create%20a%20new%20channel.JPG)
+
+* After signing into your ThingSpeak account you will have a similar view as shown in the above image, I have created 4 channels, those are not pre existent. One has to create a new channel for uploading the sensor data, You can create a channel by clicking on the new channel.
+![alt text](https://github.com/akhilkumar99/Vehicle-Accident-detection/blob/master/api%20keys.JPG)
+
+* After creating a channel it looks mostly like this as shown above, now click on the API Keys to generate your API keys that must be used in the source code.
+
+![alt text](https://github.com/akhilkumar99/Vehicle-Accident-detection/blob/master/API%20Read%20and%20Write%20Keys.JPG)
+
+* Copy the Write API key to the code. WRITE API Key is used to upload the sensor data to the thingspeak channel (Never share your WRITE API keys to others to avoid any misuse).
+* After entering the WRITE API key, and after succesful connection of the ESP8266 module to the Arduino Uno, Switch on the circuit and give some stimuli to the sensor.
+* This stimulus is noted in the field channel of your ThingSpeak Channel. Continuos change of the data can be tracked and the ThingSpeak will automatically plot the data variations as shown below.
+![alt text](https://github.com/akhilkumar99/Vehicle-Accident-detection/blob/master/ldr%20data%20thingspeak.JPG)
+
+* This raw data can also be modified into various plots with the help of MATLAB Analysis(for that one must know MATLAB programming).
 
