@@ -42,6 +42,7 @@ We can add upto 18 different digital sensors to a single arduino controller at o
 ![alt text](https://github.com/akhilkumar99/Vehicle-Accident-detection/blob/master/sign%20in%20into%20thingspeak.JPG)
 
 * Sign in into ThingSpeak account through MathWorks account, if you don't have a matlab account then create one for free.
+* You can click on this link to redirect to ThingSpeak.com: https://thingspeak.com/login
 ![alt text](https://github.com/akhilkumar99/Vehicle-Accident-detection/blob/master/create%20a%20new%20channel.JPG)
 
 * After signing into your ThingSpeak account you will have a similar view as shown in the above image, I have created 4 channels, those are not pre existent. One has to create a new channel for uploading the sensor data, You can create a channel by clicking on the new channel.
@@ -56,5 +57,6 @@ We can add upto 18 different digital sensors to a single arduino controller at o
 * This stimulus is noted in the field channel of your ThingSpeak Channel. Continuos change of the data can be tracked and the ThingSpeak will automatically plot the data variations as shown below.
 ![alt text](https://github.com/akhilkumar99/Vehicle-Accident-detection/blob/master/ldr%20data%20thingspeak.JPG)
 
+* you can see i have changed the channel, because there was no data uploaded to the temp_val channel. You can create as many channels you want, but the data upload limit is fixed by the ThingSpeak. You have to buy for additional data from ThingSpeak. 
 * This raw data can also be modified into various plots with the help of MATLAB Analysis(for that one must know MATLAB programming).
 
