@@ -138,10 +138,13 @@ void loop() {
           
           
           serialFlush();
+        //Start of the sensor data upload code
           Serial.print("GET /update?api_key=QF0QD6JZ6WKNRFQY");//API Key of The ThingSpeak Cloud Goes Here
           sprintf(buff,"field1=%04u",sen2);//The Field Data of The Thingspeak Cloud Account Goes Here 
           Serial.print(buff);
           Serial.println("");
+        //End of the sensor data upload code
+        //This block represents the data upload of the sensor 2, You can repeat this block accordingly, based on no.of sensors. 
           if(!check((char*)"OK",200))
           {
               digitalWrite(led1, HIGH);delay(500);digitalWrite(led1, LOW);
