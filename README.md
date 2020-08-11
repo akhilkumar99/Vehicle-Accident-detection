@@ -8,13 +8,13 @@ We can also monitor the status of the vehicle and one can view the changes in th
 
 &nbsp;
 > ## Components Required
-* *Arduino Uno
-* *Wi-Fi module(ESP8266)
-* *Vibration Sensor
-* *Temperature Sensor(LM35)
-* *Jumper Wires (Male-to-Male and Male-to-Female)
-* *Breadboard or PCB
-* *Few Red LED's and Green LED's
+* Arduino Uno
+* Wi-Fi module(ESP8266)
+* Vibration Sensor
+* Temperature Sensor(LM35)
+* Jumper Wires (Male-to-Male and Male-to-Female)
+* Breadboard or PCB
+* Few Red LED's and Green LED's
 
 &nbsp;
 > ## Working of the System
@@ -23,3 +23,9 @@ We can also monitor the status of the vehicle and one can view the changes in th
 * These sensors output data is collected and sent to the cloud i.e., an open source cloud for data storage and analysis namely –THINGSPEAK. At ThingSpeak these sensors data are analysed and a graph is plotted and vehicle performance analysis is done monthly and weekly depending on the requirement. By this when the vehicle needs service can be estimated and a tweet can be sent through twitter.
  
 This project can be extended with the help of GSM and GPS modules to give the precise location of the vehicle in order to detect any accident.
+
+&nbsp;
+> ## Connection of Arduino Uno to ESP8266
+![alt text]
+
+
