@@ -10,6 +10,7 @@ We can also monitor the status of the vehicle and one can view the changes in th
 > ## Components Required
 * Arduino Uno
 * Wi-Fi module(ESP8266)
+* ThingSpeak Cloud
 * Vibration Sensor
 * Temperature Sensor(LM35)
 * Jumper Wires (Male-to-Male and Male-to-Female)
